@@ -1,0 +1,23 @@
+.products{
+    width: 100%;
+   display: grid;
+   grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+   justify-content: center;
+   margin:20px 0;
+}
+.filters{
+    width: 30%;
+    margin-top: 13px;
+    margin-left: 700px;
+    display: flex;
+    font-weight: bold;
+}
+.filters label{
+    margin-top: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.filters select{
+    height: min-content;
+    margin-right: 50px
+}
+@import url("../utils/productlist.css");
